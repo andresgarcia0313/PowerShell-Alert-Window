@@ -1,0 +1,2 @@
+Add-Type -Path "user32.cs"# Importar c sharp que permite abrir la ventana para powershell
+[User32]::MessageBox([IntPtr]::Zero, "Bienvenido", "App", 0)# Envia el mensaje a mostrar en la ventana y el titulo
